@@ -1,0 +1,36 @@
+#配置被git忽略的文件  这些文件在推送时 不会被推送到git仓库
+*.class
+
+#package file
+*.war
+*.ear
+
+#kdiff3 ignore
+*.orig
+
+#maven ignore
+target/
+out/
+
+#eclipse
+.settings/
+.project
+.classpath
+
+#idea
+.idea/
+/idea/
+*ipr
+*.iml
+*.iws
+
+#temp file
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+#system ignore
+.DS_Store
+Thumbs.db
